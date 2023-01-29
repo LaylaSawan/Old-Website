@@ -2,11 +2,11 @@ const express = require('express');
 
 const app = express(); 
 
-var sql = require('mysql'); 
-var cors = require('cors')
+var sql = require('mysql'); // grabbing the mysql library (functions and variables) and saving it into the variable sql 
+var cors = require('cors');
 
 app.use(cors())
-
+//is preparing the sql connection
 var con = sql.createConnection({
     host: "composting.chsfz35kckgj.us-east-1.rds.amazonaws.com",
     user: "admin",
