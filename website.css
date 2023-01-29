@@ -5,5 +5,8 @@
 .header{
   min-height: 100vh;
   width:100%;
-  backround-image: linear-gradient(rdba(4,9,30,0.7)),url();
+  background-image: linear-gradient(rdba(4,9,30,0.7)),url(Pictures/GettyImages-1153472601.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
