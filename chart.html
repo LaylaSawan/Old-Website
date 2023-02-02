@@ -1,33 +1,35 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.0/chart.js" integrity="sha512-dMZihiwDKQBWhUkLvTvGzbOGLoNdFzZhdYRCFOsIbsDQkyakukI3vjB6SpR0iUTwUK7delljKsqfFF50ZWAgwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<div style="width: 900px; height: 400px;">
-    <canvas id="myCompostingChart"></canvas>
-</div>
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
 <script>
+    var xValues = [50,60,70,80,90,100,110,120,130,140,150];
+    var yValues = [7,8,8,9,9,9,10,11,14,14,15];
 
-    let labels = ['Big Mac', 'Quater Pounder with Cheese', 'McDouble','Double Cheeseburger', 'Hamnurger'];
-
-    let itemData = [550, 520, 400, 450, 250];
-
-    const data = {
-        labels: labels,
-        datatsets: [{
-            data: itemData,
-            backroundColor: 'rgb(8, 112, 53)' 
+    new Chart("myChart", {
+    type: "line",
+    data: {
+        labels: xValues,
+        datasets: [{
+        fill: false,
+        lineTension: 0,
+        backgroundColor: "rgba(0,0,255,1.0)",
+        borderColor: "rgba(0,0,255,0.1)",
+        data: yValues
         }]
-    };
-
-    const config = {
-        type: 'bar',
-        data: data
-    };
-
-    const chart = new Chart(
-        document.getElementById('myChart'),
-        config
-    ); 
-
+    },
+    options: {
+        legend: {display: false},
+        scales: {
+        yAxes: [{ticks: {min: 6, max:16}}],
+        }
+    }
+    });
 </script>
+
+</body>
+</html>
 
 
