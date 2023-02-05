@@ -146,12 +146,12 @@ h3{
   overflow: hidden;
 }
 .sensors-col img{
-  width: 100%;
+  width: 50%;
 }
 .layer{
   background: transparent;
-  height: 25%;
-  width: 25%;
+  height: 100%;
+  width: 100%;
   position: absolute;
   top:0;
   left: 0;
