@@ -13,26 +13,16 @@
             <link rel="Sensor" href="Sensor.css"
         </head>
         <body>
-            <section class="header">
-                <nav>
-                    <a href="index.html"><img src="Pictures/download (7).png"></a>
-                    <div class="nav-links">
-                        <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
-                        <ul>
-                            <li><a href="">WHAT IS COMPOSTING</a></li>
-                            <li><a href="">THE SECRET TO COMPOSTING</a></li>
-                            <li><a href="chart.html">MY CHART</a></li>
-                            <li><a href="">FUN FACTS</a></li>
-                            <li><a href="">OTHER ORGIZATIONS</a></li>
-                        </ul>
-                    </div>
-                    <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
-                </nav>
+            <div class="hero">
+                <div class="container">
+                    <body onload="getListOfSensorValues()">
+                        <p><br />Value:</p>
+                        <p id="sensor"></p>
+                    </body>
+                    <script src="main.js"></script>
+                </div>
+            </div>
+            
         </body>
 
-        <body onload="getListOfSensorValues()">
-            <p><br />Value:</p>
-            <p id="sensor"></p>
-        </body>
-        <script src="main.js"></script>
     </html>
