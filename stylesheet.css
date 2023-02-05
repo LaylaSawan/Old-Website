@@ -147,6 +147,7 @@ h3{
 }
 .sensors-col img{
   width: 100%;
+  display: block;
 }
 .layer{
   background: transparent;
@@ -177,10 +178,32 @@ h3{
   opacity: 1;
 }
 
+/*-------websites---------*/
 
-
-
-
+.websites{
+  width: 80;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.websites-col{
+  flex-basis: 31%;
+  border-radius: 10%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.websites-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+.websites-col p{
+  padding: 0;
+}
+.websites-col h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
 
 
 
