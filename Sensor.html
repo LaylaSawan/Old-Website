@@ -10,7 +10,7 @@
             family=poppins:wght@100;200;300;400;500;600;700&display=swap"
             rel="stylesheet">
             <link rel="Sensor.css" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
-            <link rel="Sensor" href="Sensor.css"
+            <link rel="Sensor" href="Sensor.css" />
         </head>
         <body>
             <section class="header">
@@ -31,8 +31,15 @@
         </body>
 
         <body onload="getListOfSensorValues()">
-            <p><br />Value:</p>
-            <p id="sensor"></p>
+            <p><br />Botttom Moisture Value:</p>
+            <p id="bottomMoistureSensor"></p>
+            <p><br />Top Moisture Value:</p>
+            <p id="topMoistureSensor"></p>
+            <p><br />My Temperature Value:</p>
+            <p id="tempSensorValue"></p>
+            <p><br />My Photo Restistor Value:</p>
+            <p id="photoSensorValue"></p>
         </body>
+        
         <script src="main.js"></script>
     </html>
