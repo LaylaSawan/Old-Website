@@ -229,15 +229,6 @@ h3{
     font-size: 24px;
   }
 }
-
-
-
-
-
-
-
-
-
 @media(max-width: 700px){
     .row{
       flex-direction: column;
@@ -272,6 +263,33 @@ h3{
     padding: 30px;
    }
 }
+
+
+/*--------What Is Composting?-------*/
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/gardener-planting.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
