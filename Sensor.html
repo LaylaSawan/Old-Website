@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-    <html>
-
+<html>
         <head>
             <meta name="viewport" content="with=device-width, initial scale=1.0">
             <title>greenGENIE Composting System</title>
-            <link rel="Sensor" href="Sensor.css">
+            <link rel="stylesheet" href="stylesheet.css">
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?
             family=poppins:wght@100;200;300;400;500;600;700&display=swap"
             rel="stylesheet">
-            <link rel="Sensor.css" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
-            <link rel="Sensor" href="Sensor.css" />
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
+
         </head>
-        <body>
-            <section class="header">
-                <nav>
-                    <a href="index.html"><img src="Pictures/download (7).png"></a>
-                    <div class="nav-links">
-                        <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
-                        <ul>
-                            <li><a href="">WHAT IS COMPOSTING</a></li>
-                            <li><a href="">THE SECRET TO COMPOSTING</a></li>
-                            <li><a href="chart.html">MY CHART</a></li>
-                            <li><a href="">FUN FACTS</a></li>
-                            <li><a href="">OTHER ORGIZATIONS</a></li>
-                        </ul>
-                    </div>
-                    <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
-                </nav>
-        </body>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Pictures/download (3).png"></a>
+                <div class="nav-links">
+                    <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                    <ul>
+                        <li><a href="">WHAT IS COMPOSTING</a></li>
+                        <li><a href="Sensor.html">SENSOR</a></li>
+                        <li><a href="">THE SECRET TO COMPOSTING</a></li>
+                        <li><a href="chart.html">MY CHART</a></li>
+                        <li><a href="">FUN FACTS</a></li>
+                        <li><a href="">OTHER ORGIZATIONS</a></li>
+                    </ul>
+                </div>
+                <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+            </nav>
+            <h1>what is composting</h1>
+        </section>
+
+
 
         <body onload="getListOfSensorValues()">
             <p><br />Botttom Moisture Value:</p>
@@ -42,4 +45,36 @@
         </body>
         
         <script src="main.js"></script>
-    </html>
+        
+<!-----------call to action-------------->
+
+<section class="cta">
+
+    <h1>If You Want To Know More About Composting</h1>
+    <a href="" class="hero-btn">CONTACT ME</a>
+
+</section>
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>       
+</html>
+
