@@ -1,64 +1,88 @@
 <!DOCTYPE html>
-    <html>
-
+<html>
         <head>
-            <title>The Secret To Composting Is Oxygen</title>
-            <a href="index.html"> Homepage </a>
-            <a href="Composting.html"> What Is Composting? </a>
-            <a href="Composting.html"> Sensor </a>
-            <a href="Sensor.html"> About Creator </a>
-            <a href="other orgizations.html"> Other orgizations</a>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="icon" type="image/png" href="./icon.png">
-            <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="funfacts.css">
+            <meta name="viewport" content="with=device-width, initial scale=1.0">
+            <title>greenGENIE Composting System</title>
+            <link rel="stylesheet" href="stylesheet.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?
+            family=poppins:wght@100;200;300;400;500;600;700&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
 
         </head>
+    <body>
+        <section class="funfacts-header">
+            <nav>
+                <a href="index.html"><img src="Pictures/download (3).png"></a>
+                <div class="nav-links">
+                    <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                    <ul>
+                        <li><a href="composting.html">COMPOSTING</a></li>
+                        <li><a href="Sensor.html">SENSOR</a></li>
+                        <li><a href="">THE SECRET TO COMPOSTING</a></li>
+                        <li><a href="chart.html">MY CHART</a></li>
+                        <li><a href="funfacts.html">FUN FACTS</a></li>
+                        <li><a href="other orgizations.html">OTHER ORGIZATIONS</a></li>
+                    </ul>
+                </div>
+                <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+            </nav>
+            <h1>Fun Facts</h1>
+        </section>
+<!-----What Is Composting Content----->
 
-            <body>
-                <h1>wwwwwww</h1>
-                <h2>Their are many amazing facts for composting, these are some of my favourites:</h2>
-                <h3>Reduces Flood Risk</h3>
-                <p>
+<section class="composting">
 
-                        Making composting can reduce flood risks becuase increased infiltration, 
-                        it prevents water from laterally flowing off the land, and potentially into 
-                        storm drains and sewers
+        <div class="row">
+            <div class="composting-col">
+                <h1>Fun Facts</h1>
+                <p>Here are some fun facts about composting:</p>
+                <p>&#x2022; You can save 28% of your overall household waste by <br>
+                    composting your food scraps and yard waste.</p>
+                <p>&#x2022; When added to soil, compost helps filter out 60-95% <br>
+                     of urban storm water pollutants</p>
+                <p>&#x2022; 31% of our food supply ends up in land fills</p>
+                <p>&#x2022; Over 90 billion lbs of food ends up wasted <br>
+                    equating to 123 times the weight of the empire state bulding</p>
+                <a href="https://www.bing.com/search?q=fun+facts+about+composting&cvid=a69384cb2dd44c729e5d4a02c364b639&aqs=edge.0.0l9.4861j0j1&pglt=43&FORM=ANNTA1&PC=U531" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+                <div class="composting-col">
+                    <img src="Pictures/gardener-planting.jpg">
+                </div>
+        </div>
+</section>
 
-                </p>
-                <h4>Improves Soil Structure</h4>
-                <p>
+<!-----------call to action-------------->
 
-                    Compost increases the organic matter in the soil. Studies have 
-                    shown this improves maximum yield potential & workability and 
-                    provides better crop establishment. 
+<section class="cta">
 
-                </p>
-                <h5>Sequester Carbon</h5>
+    <h1>If You Want To Know More About Composting</h1>
+    <a href="mailto:layla.sawan@gmail.com
+    subject= CONTACT ME"
+    class="hero-btn">CONTACT ME</a>
 
-                <p>
+</section>
 
-                     When compost is applied, it increases soil health, as microbes
-                     grow and become more plentiful. Using compost is an effective
-                     way to sequester carbon, storing it in the soil instead of 
-                     releasing it into the air.
 
-                </p>
-                <h6>Saving Household Waste</h6>
-                <p>
 
-                    You can save 28% of your overall household waste by 
-                    composting your food scraps and yard waste.
-                    
-                </p>
-  
-                <img src= "./Pictures/Heart hands holding dirt.jpg"
-                width="200"
-                height="150"/>
-            </body>
 
+
+
+
+<!--------JavaScript for Toggle Menu------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
         
-
-    </html>
+    </body>       
+</html>
