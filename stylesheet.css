@@ -278,15 +278,10 @@ h3{
    .nav-links ul{
     padding: 30px;
    }
-}
-
-
-/*--------What Is Composting?-------*/
-
-.sub-header{
+   .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/Is-Composting-Worth-It.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Pictures/07-05_Compost_Article.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -295,10 +290,16 @@ h3{
 .sub-header h1{
   margin-top: 100px;
 }
+}
+
+
+/*--------What Is Composting?-------*/
+
+
 .composting-header{
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/how-to-use-compost.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(pictures/07-05_Compost_Article.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -358,6 +359,53 @@ margin-top: 100px;
 }
 
 /* other orgizations */
+.otherorgizations-header{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Pictures/07-05_Compost_Article.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.otherorgizations-header h1{
+margin-top: 100px;
+}
+
+
+.composting{
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.composting-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.composting-col img{
+  width: 100%;
+}
+
+.composting-col h1{
+  padding-top: 0;
+}
+
+.composting-col p{
+  padding: 15px 0 25px;
+}
+
+.red-btn{
+  border: 1px solid #f44336;
+  background: transparent;
+  color: #f44336;
+}
+
+.red-btn:hover{
+  color: #fff;
+}
+
 .funfacts-header{
   height: 50vh;
   width: 100%;

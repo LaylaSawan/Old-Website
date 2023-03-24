@@ -23,7 +23,7 @@
                         <li><a href="">THE SECRET TO COMPOSTING</a></li>
                         <li><a href="chart.html">MY CHART</a></li>
                         <li><a href="funfacts.html">FUN FACTS</a></li>
-                        <li><a href="">OTHER ORGIZATIONS</a></li>
+                        <li><a href="other orgizations.html">OTHER ORGIZATIONS</a></li>
                     </ul>
                 </div>
                 <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
@@ -71,47 +71,6 @@
     
 </section>
 
-<!-------Sensors------>
-
-<section class="Sensor">
-<h1>My Sensors</h1>
-<p>These sensors will help you understand if you should give your ecosystem more water, or less water</p>
-
-<div class="row">
-    <div class="sensors-col">
-        <img src="Pictures/moisture_sensor1.jpg">
-        <div class="layer">
-            <h3>MOISTURE</h3>
-        </div>
-    </div>
-    <div class="sensors-col">
-        <img src="Pictures/mq-6-gas-sensor-module-250x250.webp">
-        <div class="layer">
-            <h3>GAS</h3>
-        </div>
-    </div>
-    <div class="sensors-col">
-        <img src="Pictures/api6rmhk4__05938.jpg">
-        <div class="layer">
-            <h3>TEMPERATURE</h3>
-        </div>
-    </div>
-    <div class="sensors-col">
-        <img src="Pictures/api6rmhk4__05938.jpg">
-        <div class="layer">
-            <h3>TEMPERATURE</h3>
-        </div>
-    </div>
-    <div class="sensors-col">
-        <img src="Pictures/api6rmhk4__05938.jpg">
-        <div class="layer">
-            <h3>TEMPERATURE</h3>
-        </div>
-    </div>
-</div>
-
-</section>
-</section>
 
 
 <!------websites------>
@@ -158,7 +117,7 @@
     </form>
 </div>
 
-<!---different comment box--->
+<--different comment box--->
 <div class="container">
     <form onsubmit="sendEmail(); reset(); return false;">
         <h3> give me feedback about my project! </h3>
@@ -185,7 +144,7 @@
     +"<br> Pnone no: " + document.getElementById("phone").value
     +"<br> Message: " + document.getElementById("message").value
 }).then(
-  message => alert(message)
+  message => alert("Message Sent Succesfully")
 );
 
     }
