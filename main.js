@@ -1,7 +1,7 @@
 setInterval(getListOfSensorValues, 5000);
 async function getListOfSensorValues() { 
 
-    fetch('http://localhost:3000/sensor')// its is making a GET request
+    fetch('https://cvpcmc3kka.execute-api.us-east-1.amazonaws.com/prod')// its is making a GET request
         .then(res => res.json())//when you get the responce from the api, run this; it converts responce to json
             .then(data => {//when you finish converting the json, run the code
                 console.log(data["value"])// its printing the data
