@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta name="viewport" content="with=device-width, initial scale=1.0">
+            <title>greenGENIE Composting System</title>
+            <link rel="stylesheet" href="stylesheet.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?
+            family=poppins:wght@100;200;300;400;500;600;700&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/font-awesome.min.css">
+
+        </head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <body>
+        <section class="composting-header">
+            <nav>
+                <a href="index.html"><img src="Pictures/download (3).png"></a>
+                <div class="nav-links">
+                    <!-- <i class="fa fa-times" onclick="hideMenu()"></i> -->
+                    <ul>
+                        <li><a href="Sensor.html">SENSOR</a></li>
+                        <li><a href="">THE SECRET TO COMPOSTING</a></li>
+                        <li><a href="chart.html">MY CHART</a></li>
+                        <li><a href="funfacts.html">FUN FACTS</a></li>
+                        <li><a href="other orgizations.html">OTHER ORGIZATIONS</a></li>
+                    </ul>
+                </div>
+                <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+            </nav>
+            <h1>the Microbial World of Food Waste Composting
+            </h1>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h8>Fun Facts</h8>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+        <script>
+            var xValues = [20,85,50,65,45,27,28,30];
+            var yValues = [7,8,8,9,9,9,10,11,14,14,7];
+        
+            new Chart("myChart", {
+            type: "line",
+            data: {
+                labels: xValues,
+                datasets: [{
+                fill: false,
+                lineTension: 0,
+                backgroundColor: "rgba(0,0,255,1.0)",
+                borderColor: "rgba(0,0,255,0.1)",
+                data: yValues
+                }]
+            },
+            options: {
+                legend: {display: false},
+                scales: {
+                yAxes: [{ticks: {min: 6, max:16}}],
+                }
+            }
+            });
+        </script>
+<!-----------call to action-------------->
+
+<section class="cta">
+
+    <h1>If You Want To Know More About Composting</h1>
+    <a href="mailto:layla.sawan@gmail.com
+    subject= CONTACT ME"
+    class="hero-btn">CONTACT ME</a>
+
+</section>
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>       
+</html>
